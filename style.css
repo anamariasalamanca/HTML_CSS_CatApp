@@ -1,0 +1,127 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/* GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap');
+
+body{
+    background-color: #232946;
+    font-family: 'Raleway', sans-serif;
+}
+article {
+    background-color: #b8c1ec;
+    border:#fffffe solid;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+}
+h1{
+    color: #eebbc3;
+}
+h2, h4{
+    color: #fffffe;
+}
+a, span{
+    color: #eebbc3;
+    font-weight: bold;
+}
+a:hover{
+    color:#b8c1ec 0.5s;
+}
+p{
+ color: #fffffe;
+
+}
+
+/* STYLES */
+.icons{
+    width:28px;
+}
+nav ul{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ background-color: #fffffe;
+ height: 50px;
+ border-radius: 20px;
+
+}
+nav ul li{
+    color: #eebbc3;
+}
+.hero{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.hero article{
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    margin: 10px;
+    width: 50%;
+}
+.hero article p{
+    padding-top: 14px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.hero article img{
+    background-color: #b8c1ec;
+    border:#fffffe solid;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+}
+h3{
+    color:#fffffe;
+    padding-top: 18px;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.gallery{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.gallery article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+    height: 60vh;
+    margin: 12px;
+}
+.gallery article img{
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+}
+.gallery article p{
+    padding: 15px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+     padding: 30px;
+     align-items: center;
+     justify-content: space-between
+}
+.f-ul{
+    display: flex;
+}
+.f-li{
+    justify-content:space-between
+}
